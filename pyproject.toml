@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ltlf"
+version = "0.0.1"
+description = ""
+readme = "README.md"
+dependencies = [
+    "ruff_e501_patch @ git+https://github.com/pwithams/ruff-e501-patch.git",
+]
+
+
+[project.scripts]
+ltlf = "ltlf.cli:run"
