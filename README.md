@@ -4,7 +4,7 @@ Currently just a wrapper around https://github.com/pwithams/ruff-e501-patch
 
 ## Installation
 
-`uv pip install 'ltlf @ git+https://github.com/pwithams/line-too-long-fixer.git'`
+`pip install 'ltlf @ git+https://github.com/pwithams/line-too-long-fixer.git'`
 
 ## Usage
 
