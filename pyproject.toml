@@ -8,7 +8,7 @@ version = "0.0.1"
 description = ""
 readme = "README.md"
 dependencies = [
-    "ruff_e501_patch @ git+https://github.com/pwithams/ruff-e501-patch.git",
+    "ruff_e501_patch @ https://github.com/pwithams/ruff-e501-patch/releases/download/v0.0.1/ruff_e501_patch-0.12.3-py3-none-linux_x86_64.whl",
 ]
 
 
